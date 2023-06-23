@@ -25,9 +25,11 @@ aliases:
 
 ```dataview
 TASK
-FROM #my-demo-space AND #question AND -#task
+FROM #my-demo-space AND #question
 WHERE 
 	!completed
+AND
+    !contains(text, "#task")
 AND 
 	text != ""
 SORT file.name ASC

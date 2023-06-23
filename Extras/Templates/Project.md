@@ -38,6 +38,8 @@ TASK
 FROM #<% await projectTag %> AND #question 
 WHERE 
 	!completed
+AND
+    !contains(text, "#task")
 AND 
 	text != ""
 SORT file.name ASC
