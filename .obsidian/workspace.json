@@ -20,8 +20,23 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "88dfa0a8a0c29bd1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/🧠 Vault Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡 Home.md",
+                "file": "Atlas/🧠 Vault Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡 Home.md",
+                "file": "Atlas/🧠 Vault Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡 Home.md"
+                "file": "Atlas/🧠 Vault Overview.md"
               }
             }
           }
@@ -164,9 +179,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "db83b66934965402",
+  "active": "88dfa0a8a0c29bd1",
   "lastOpenFiles": [
+    "Cards/Definitions",
+    "🏡 Home.md",
+    "Calendar/2023/Monthly Notes/2023-06-June.md",
+    "Cards/People/Jane Doe.md",
+    "Projects/Sample Work Project.md",
+    "Calendar/2023/Monthly Notes",
+    "Cards/Companies/Acme Corp.md",
+    "Cards/People/John Doe.md",
     "Calendar/2023/06-June/Daily Notes/2023-06-23-Friday.md",
+    "Projects/sample-work-project/Sample Project Note 1.md",
+    "Projects/sample-work-project/Sample Project Note 2.md",
+    "Projects/sample-work-project",
+    "Atlas/📰 Articles to read.md",
     "Atlas/📬 Inbox.md",
     "Calendar/2023/Weekly Notes/2023-W25.md",
     "Spaces/My Demo Space.md",
@@ -180,7 +207,6 @@
     "Extras/Templates/Project Note.md",
     "Projects/null/Sample Project Note 1.md",
     "Projects/null",
-    "🏡 Home.md",
     "Extras/Templates/Space Note.md",
     "Spaces/my-demo-space",
     "Calendar/2023/Weekly Notes",
@@ -189,9 +215,6 @@
     "Calendar/2023",
     "Atlas/📚 Reading List.md",
     "Extras/Templates/Yearly Reading List.md",
-    "Atlas/📝 Tasks.md",
-    "Atlas/👥 Customers.md",
-    "Atlas/🎞️ Videos to watch.md",
-    "+ Encounters/! Quick Capture.md"
+    "Atlas/📝 Tasks.md"
   ]
 }

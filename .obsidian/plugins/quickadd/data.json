@@ -55,35 +55,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "fa11db03-bbdb-4b18-89ee-1d5dc1bed512",
-      "name": "Create new Book",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Extras/Templates/Book.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date:YYYY-MM-DD-HHmmss}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "+ Encounters"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": false,
-      "incrementFileName": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "f0dda4cc-1050-466e-8fd9-a83b78670d0e",
@@ -111,7 +84,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "f494ab28-f6fd-4efe-9b76-8df18286adc5",
@@ -139,14 +113,15 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "0722aac8-c8d6-4afc-98b3-3fe1883b65f0",
       "name": "Create new Meeting",
       "type": "Template",
       "command": true,
-      "templatePath": "Extras/Templates/Meeting.md",
+      "templatePath": "",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{date:YYYY-MM-DD-HHmmss}}"
@@ -196,7 +171,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "0fd7f874-3b72-4656-928a-6c3aa3210991",
@@ -224,7 +200,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "e521c2ae-2307-4539-98e8-958e05049944",
@@ -282,7 +259,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "64020033-9a82-4f2a-94b2-4f6deaad7309",
@@ -310,7 +288,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "b2aac8d8-7876-472a-8591-6470382cd451",
@@ -368,7 +347,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "7d343718-5eee-4441-935d-6a7f02b13212",
@@ -394,7 +374,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     },
     {
       "id": "44866762-2595-491c-8943-aaec5f32eccc",
@@ -422,7 +403,8 @@
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
     }
   ],
   "macros": [],

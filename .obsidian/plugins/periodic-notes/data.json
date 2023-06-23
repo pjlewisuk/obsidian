@@ -5,7 +5,7 @@
   "daily": {
     "format": "YYYY/MM-MMMM/[Daily Notes]/YYYY-MM-DD-dddd",
     "folder": "Calendar",
-    "template": "Extras/Templates/Daily Note",
+    "template": "Extras/Templates/Daily Note.md",
     "enabled": true
   },
   "weekly": {
