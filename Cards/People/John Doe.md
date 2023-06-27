@@ -1,7 +1,6 @@
 ---
-id: John-Doe
-created_date: 23/06/2023 17:25
-updated_date: 23/06/2023 17:25
+created_date: 2023-06-23 17:25
+updated_date: 2023-06-23 17:25
 type: people
 tags: people, 2023-06,
 birthday: 
@@ -23,7 +22,7 @@ aliases: John, john
 ## 👤 About
 
 **How did we meet**? 
-**When did we meet**? 23/06/2023
+**When did we meet**? 2023-06-23
 
 ### 👨‍👩‍👦 Related People
 

@@ -1,7 +1,6 @@
 ---
-id: Acme Corp
-created_date: 23/06/2023 17:27
-updated_date: 23/06/2023 17:27
+created_date: 2023-06-23 17:27
+updated_date: 2023-06-23 17:27
 type: company
 tags: company, 2023-06, acme corp,
 customer: false

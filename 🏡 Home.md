@@ -1,7 +1,6 @@
 ---
-id: 🏡 Home
-created_date: 23/06/2023
-updated_date: 23/06/2023
+created_date: 2023-06-23
+updated_date: 2023-06-23
 type: home-page
 tags: home
 summary: Home page for my vault

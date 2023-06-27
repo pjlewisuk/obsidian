@@ -8,9 +8,8 @@ await tp.file.move("Cards/Definitions/" + titleName);
 await tp.frontmatter.type
 -%>
 ---
-id: <% await titleName %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 company: Acme Corp
 type: definition
 tags: definition, <% tp.file.creation_date("YYYY-MM") %>,

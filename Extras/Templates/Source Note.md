@@ -10,9 +10,8 @@ await tp.file.rename(titleName);
 await tp.file.move("Cards/Sources/" + titleName);
 -%>
 ---
-id: <% await titleName %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: <% await sourceType %>
 tags: source-note <% tp.file.creation_date("YYYY-MM") %>
 <%*

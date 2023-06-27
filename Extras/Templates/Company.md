@@ -7,9 +7,8 @@ await tp.file.rename(titleName);
 await tp.file.move("Cards/Companies/" + titleName); 
 -%>
 ---
-id: <% await titleName %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: company
 tags: company, <% tp.file.creation_date('YYYY-MM') %>, <% await tagName %>,
 customer: <% await isCustomer %>

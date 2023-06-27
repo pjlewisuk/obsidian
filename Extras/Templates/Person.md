@@ -8,9 +8,8 @@ await tp.file.rename(personName);
 await tp.file.move("Cards/People/" + personName); 
 -%>
 ---
-id: <% personName.split(" ")[0] %>-<% personName.split(" ")[1] %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: people
 tags: people, <% tp.file.creation_date("YYYY-MM") %>,
 birthday: 

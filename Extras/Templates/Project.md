@@ -9,9 +9,8 @@ await tp.file.move("Projects/" + titleName);
 await this.app.vault.createFolder("Projects/" + projectTag)
 -%>
 ---
-id: <% await titleName %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 company: <% await projectCompany %>
 type: project
 tags: project, <% tp.file.creation_date("YYYY-MM") %>, <% await projectTag %>,

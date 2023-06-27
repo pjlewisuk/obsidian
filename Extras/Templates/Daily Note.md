@@ -16,12 +16,11 @@ await tp.file.rename(titleName);
 await tp.file.move("Calendar/" + dateFolder + "Daily Notes/" + titleName);
 -%>
 ---
-id: <% await creationDate %>
 up: [[<% await weekLink %>]]
 next: [[<% await nextDay %>]]
 prev: [[<% await prevDay %>]]
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: daily-note
 tags: daily-note, <% await monthLink %>, <% await creationDate %>,
 summary: Daily note for <% await friendlyDate %>

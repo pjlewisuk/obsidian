@@ -9,7 +9,6 @@ await tp.file.rename(titleName);
 await tp.file.move("Calendar/" + creationDateFolder + "Monthly Notes/" + titleName);
 -%>
 ---
-id: <% tp.file.title.split(" ")[0] %>
 up: [[<% tp.date.now("YYYY[ Year Plan]", " ", tp.file.title, "YYYY-MM-MMMM") %>]]
 next: [[<% tp.date.now("YYYY-MM-MMMM", "P1M", tp.file.title, "YYYY-MM-MMMM") %>]]
 prev: [[<% tp.date.now("YYYY-MM-MMMM", "P-1M", tp.file.title, "YYYY-MM-MMMM") %>]]

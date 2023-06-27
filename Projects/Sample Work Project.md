@@ -1,7 +1,6 @@
 ---
-id: Sample Work Project
-created_date: 23/06/2023 17:15
-updated_date: 23/06/2023 17:15
+created_date: 2023-06-23 17:15
+updated_date: 2023-06-23 17:15
 company: Acme Corp
 type: project
 tags: project, 2023-06, sample-work-project,

@@ -1,7 +1,6 @@
 ---
-id: Second Brain
-created_date: 23/06/2023 19:34
-updated_date: 23/06/2023 19:34
+created_date: 2023-06-23 19:34
+updated_date: 2023-06-23 19:34
 company: Acme Corp
 type: definition
 tags: definition, 2023-06,

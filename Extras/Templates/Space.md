@@ -9,9 +9,8 @@ await tp.file.move("Spaces/" + titleName);
 await this.app.vault.createFolder("Spaces/" + spaceTag)
 -%>
 ---
-id: <% await titleName %>
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 company: <% await spaceCompany %>
 type: space
 tags: space, <% tp.file.creation_date("YYYY-MM") %>, <% await spaceTag %>,

@@ -5,12 +5,11 @@ creationDateFolder = tp.file.creation_date("YYYY/")
 titleName = creationWeek
 -%>
 ---
-id: <% await creationWeek %>
 up: [[<% await creationMonth %>]]
 next: [[<% moment(creationWeek,'YYYY-[W]WW').add(7,'days').format("YYYY-[W]WW") %>]]
 prev: [[<% moment(creationWeek,'YYYY-[W]WW').add(-7,'days').format("YYYY-[W]WW") %>]]
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: weekly-note
 tags:  weekly-note, <% tp.file.creation_date("YYYY-MM") %>,
 summary: Weekly note for <% moment(tp.file.title, 'YYYY-[W]ww').format("[Week] ww, MMMM YYYY") %>

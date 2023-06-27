@@ -8,10 +8,9 @@ await tp.file.rename(titleName);
 await tp.file.move("Spaces/" + noteSpace + "/" + titleName);
 -%>
 ---
-id: <% await titleName %>
 up: [[<% await noteSpace %>]]
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 company: <% await noteCompany %>
 type: note
 tags: note, <% tp.file.creation_date("YYYY-MM") %>, <% await noteSpace %>

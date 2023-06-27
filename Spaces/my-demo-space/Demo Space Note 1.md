@@ -1,8 +1,7 @@
 ---
-id: Demo Space Note 1
 up: [[my-demo-space]]
-created_date: 23/06/2023 16:59
-updated_date: 23/06/2023 16:59
+created_date: 2023-06-23 16:59
+updated_date: 2023-06-23 16:59
 company: Acme Corp
 type: note
 tags: note, my-demo-space,

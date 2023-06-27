@@ -1,7 +1,6 @@
 ---
-id: My Demo Space
-created_date: 23/06/2023 16:58
-updated_date: 23/06/2023 16:58
+created_date: 2023-06-23 16:58
+updated_date: 2023-06-23 16:58
 company: Acme Corp
 type: space
 tags: space, my-demo-space,

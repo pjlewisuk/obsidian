@@ -11,10 +11,9 @@ await tp.file.rename(titleName);
 await tp.file.move("Calendar/" + creationDateFolder + "/Meetings/" + titleName);
 -%>
 ---
-id: <% titleName %>
 up: [[<% await CompanyNameCapitalized %>]]
-created_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
-updated_date: <% tp.file.creation_date('DD/MM/YYYY HH:mm') %>
+created_date: <% tp.file.creation_date('YYYY-MM-DD') %>
+updated_date: <% tp.file.creation_date('YYYY-MM-DD HH:mm') %>
 type: meeting
 tags: meeting, <% tp.file.creation_date("YYYY-MM") %>,
 company: <% CompanyNameCapitalized %>
